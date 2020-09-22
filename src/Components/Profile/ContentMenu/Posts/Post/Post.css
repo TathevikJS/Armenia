@@ -1,0 +1,52 @@
+.Post{
+    position: relative;
+    width: 250px;
+    height: 330px;
+    background-color: rgb(200, 200, 200, 0.5);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px;
+    border-radius: 5%;
+    padding: 10px;
+}
+
+.Post{ 
+    position: flex;
+    width: 250px;
+    height: auto;
+    background-color: rgb(200, 200, 200, 0.5);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px;
+    border-radius: 5%;
+   padding: 0;
+}
+
+.post_img {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3px;   
+}
+
+.post_about {
+    color: white;
+  font-size: 12px; 
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 6px;
+  padding-bottom: 3px;
+  margin-bottom: 0;
+}
+
+.post_title {
+    width: 100%;
+  height: auto;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  color: white;
+  padding-left: 12px;
+  padding-top: 12px;
+  padding-right: 12px;
+}

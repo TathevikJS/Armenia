@@ -1,0 +1,29 @@
+.sideMenu{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.profAvatar{
+    width: 100%;
+    height: 40%;
+    display: flex;
+}
+
+.navigation{
+    width: 100%;
+    height: auto;
+    margin-bottom: 0;
+    padding-right: 40px;
+}
+
+.signBoard{
+    width: 100%;
+    height: 100%;
+    background-image: url('https://i.pinimg.com/originals/d5/7e/c2/d57ec2737a5e6a9539be3a264cd34480.png');
+    background-size: cover;
+}
+

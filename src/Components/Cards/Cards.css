@@ -1,0 +1,26 @@
+.Cards{
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+    padding-top: 40px;
+  }
+
+@media (min-width: 992px) {
+  .Cards{
+      width: 100%;
+      height: calc(100%-56px);
+      margin-top: 56px;
+      display: flex;   
+      }
+  }
+    
+@media (max-width: 992px) {
+    .Cards{
+        width: 100%;
+        height: calc(100%-72px);
+        margin-top: 72px;
+        display: flex;
+    }
+}
